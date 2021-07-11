@@ -444,7 +444,7 @@ class db {
 
         // Updates existing record
         if (check == "1") {
-            q = "UPDATE AppUsage SET appTime= appTime + " + appTime +
+            q = "UPDATE AppUsage SET appTime=" + appTime +
                 " WHERE email='" + userEmail + "' AND usageDate='" + date + "'";
         }
         // Creates a new record
